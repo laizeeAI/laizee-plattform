@@ -1,7 +1,11 @@
 # Laizee AI Plattform
 language analytics made easy!
 
+Our mission is to enable our customers to rapidly develop and deliver productive natural language processing web services. In order to achieve optimal results, we combine classic computer science methods with current approaches in the field of AI, especially for natural language processing. You can work low-code purely application-related and tune model and parameters on request.
 
+For this purpose, we provide our platform, which consistently implements the ML-Ops idea. We follow an agile, incremental approach that leads directly to a basic AI model and a cloud-deployed web service.
+
+On demand, we support you in every step of your project and optimize your application together with you. As you are the expert in your domain, you know best the challenges that need to be solved. If you have any questions dont hesitate to contact us directly
 
 
 
@@ -50,4 +54,11 @@ Ihr könnt mit eigenen Daten arbeiten oder vorbereitete Informationen im git fin
      - Testen Sie über die OpenAPI Schnittstelle, wie sich das Extraktions-Ergebnis verbessert hat.
      - Ermitteln Sie innerhalb der Platform, wie die Modell-Performance sich entwickelt. 
 4. Integrieren des NLP-Webservice in Ihre Anwendung
-     - Erstellen Sie eine einfache Anwendung, die den generieren Webservice verwendet. Verwenden Sie gerne die [Java-Vorlage](git) für eine Konsolenanwendung (Java ab 11 und Maven erforderlich) im git. Ein zu den Demo-Daten passender, annotierter Testdatensatz ist hier bereits mit hinterlegt.    
+     - Erstellen Sie eine einfache Anwendung, die den generieren Webservice verwendet. 
+     - Verwenden Sie gerne die [Java-Vorlage](git) für eine Konsolenanwendung (Java ab 11 und Maven erforderlich) im git. 
+     - Ein zu den Demo-Daten passender, annotierter Testdatensatz ist hier bereits mit hinterlegt. 
+5. Eigene Projekte 
+     - Experimentieren Sie mit Ihren eigenen Daten und Herausforderungen
+     - Erzählen Sie uns von Ihren Herausforderungen
+
+
