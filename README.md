@@ -11,7 +11,7 @@ On demand, we support you in every step of your project and optimize your applic
 
 ## Informationen für Pilot-User
 
-Vielen Dank dass ihr bereit seit, die Plattform zu pilotieren. Euer Feedback ist für uns unglaublich wichtig. 
+Vielen Dank dass ihr bereit seid, die Plattform zu pilotieren. Euer Feedback ist für uns unglaublich wichtig. 
 
 Alles, was Euch auffällt, ist relevant. Toll wäre, wenn ihr die Ergebnisse als Issues im git dokumentiert.  
 
@@ -21,7 +21,7 @@ Wenn ihr nicht weiter kommt, stehen wir Euch sehr gerne zur Seite. Leider sind w
 
 - Philipp Kohl, 0151/12345678, philipp@laizee.ai
 - Lars Klöser, 0151/12345678, lars@laizee.ai
-- André Büsgen, 0151/12345678, andre@laizee.ai
+- André Büsgen, 0151/12345678, andre@laizee.ai (Urlaub 06.08.2022-28.08.2022)
 - Henri Werth, 0151/12345678, werth@laizee.ai (Urlaub 20.08.2022-??.09.2022)
 - Bodo Kraft, 0151 / 122 93 722, bodo@laizee.ai
 
@@ -32,7 +32,7 @@ Ihr könnt mit eigenen Daten arbeiten oder vorbereitete Informationen im git fin
 - Demo-Daten: Nicht annotierter Datensatz mit Kundenfeedback. 
 - CSV-Liste mit deutschen Städtenamen
 - Java-Maven-Projekt zur Integration des NLP-Webservice und zum automatisierten Test 
-- Starter-Video zur Sentiment-Analysis auf Youtube 
+- Starter-Video zur Sentiment-Analysis auf Youtube  [Video]|(www.youtube.com/laizee/starter-sentiment)
 
 ### Mögliche Herausforderungen 
 
@@ -56,7 +56,8 @@ Ihr könnt mit eigenen Daten arbeiten oder vorbereitete Informationen im git fin
 4. Integrieren des NLP-Webservice in Ihre Anwendung
      - Erstellen Sie eine einfache Anwendung, die den generieren Webservice verwendet. 
      - Verwenden Sie gerne die [Java-Vorlage](git) für eine Konsolenanwendung (Java ab 11 und Maven erforderlich) im git. 
-     - Ein zu den Demo-Daten passender, annotierter Testdatensatz ist hier bereits mit hinterlegt. 
+     - Ein zu den Demo-Daten passender, annotierter Testdatensatz ist hier bereits mit hinterlegt.
+     - Passend Sie in der Datei main.java den Pfad zu Ihren Webservice an und starten Sie die Anwendung mit java -jar laizee4Me.jar 
 5. Eigene Projekte 
      - Experimentieren Sie mit Ihren eigenen Daten und Herausforderungen
      - Erzählen Sie uns von Ihren Herausforderungen
