@@ -2,11 +2,31 @@
 
 ## Informationen für Pilot-User
 
+Vielen Dank dass ihr bereit seit, die Plattform zu pilotieren. Euer Feedback ist für uns unglaublich wichtig. 
+
+Alles, was Euch auffällt, ist relevant. Toll wäre, wenn ihr die Ergebnisse als Issues im git dokumentiert.  
+
+
+
+### Kontakte
+
+Wenn ihr nicht weiter kommt, stehen wir Euch sehr gerne zur Seite. Leider sind wg. der Urlaubszeit nicht immer alle verfürbar.
+
+- Philipp Kohl, 0151/12345678, philipp@laizee.ai
+- Lars Klöser, 0151/12345678, lars@laizee.ai
+- André Büsgen, 0151/12345678, andre@laizee.ai
+- Henri Werth, 0151/12345678, werth@laizee.ai (Urlaub 20.08.2022-??.09.2022)
+- Bodo Kraft, 0151 / 122 93 722, bodo@laizee.ai
+
 
 
 ### Wichtige Ressourcen
 
-- Demo-Daten
+Ihr könnt mit eigenen Daten arbeiten oder vorbereitete Informationen im git finden:
+
+- Demo-Daten: Nicht annotierter Datensatz mit Kundenfeedback. 
+- CSV-Liste mit deutschen Städtenamen
+- Java-Maven-Projekt zur Integration des NLP-Webservice und zum automatisierten Test 
 
 
 ### Mögliche Herausforderungen 
