@@ -1,12 +1,15 @@
 # Laizee AI Plattform
+language analytics made easy!
+
+
+
+
 
 ## Informationen für Pilot-User
 
 Vielen Dank dass ihr bereit seit, die Plattform zu pilotieren. Euer Feedback ist für uns unglaublich wichtig. 
 
 Alles, was Euch auffällt, ist relevant. Toll wäre, wenn ihr die Ergebnisse als Issues im git dokumentiert.  
-
-
 
 ### Kontakte
 
@@ -18,8 +21,6 @@ Wenn ihr nicht weiter kommt, stehen wir Euch sehr gerne zur Seite. Leider sind w
 - Henri Werth, 0151/12345678, werth@laizee.ai (Urlaub 20.08.2022-??.09.2022)
 - Bodo Kraft, 0151 / 122 93 722, bodo@laizee.ai
 
-
-
 ### Wichtige Ressourcen
 
 Ihr könnt mit eigenen Daten arbeiten oder vorbereitete Informationen im git finden:
@@ -27,7 +28,7 @@ Ihr könnt mit eigenen Daten arbeiten oder vorbereitete Informationen im git fin
 - Demo-Daten: Nicht annotierter Datensatz mit Kundenfeedback. 
 - CSV-Liste mit deutschen Städtenamen
 - Java-Maven-Projekt zur Integration des NLP-Webservice und zum automatisierten Test 
-
+- Starter-Video zur Sentiment-Analysis auf Youtube 
 
 ### Mögliche Herausforderungen 
 
@@ -50,6 +51,3 @@ Ihr könnt mit eigenen Daten arbeiten oder vorbereitete Informationen im git fin
      - Ermitteln Sie innerhalb der Platform, wie die Modell-Performance sich entwickelt. 
 4. Integrieren des NLP-Webservice in Ihre Anwendung
      - Erstellen Sie eine einfache Anwendung, die den generieren Webservice verwendet. Verwenden Sie gerne die [Java-Vorlage](git) für eine Konsolenanwendung (Java ab 11 und Maven erforderlich) im git. Ein zu den Demo-Daten passender, annotierter Testdatensatz ist hier bereits mit hinterlegt.    
-
-
-   ```
