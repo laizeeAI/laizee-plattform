@@ -50,7 +50,7 @@ Hinweis: Aktuell sind die gerenierten Services noch öffentlich verfügbar, sofe
      - Erstellen Sie ein erstes Modell und Deployen Sie es
      - Testen Sie über die OpenAPI Schnittstelle, ob der Satz *Drive from Frankfurt to Hamburg, as always a pleasure!* korrekt extrahiert wird.
 3. Optimieren Sie Ihr Projekt
-     - *Überlegen Sie, welche *Regeln*, z.B. Wörterbuch-Einträge oder Reguläre Ausdrück [Syntax, Java-Style](https://regex101.com/) sinnvoll sind und das Training verbessern können. 
+     - *Überlegen Sie, welche *Regeln*, z.B. Wörterbuch-Einträge oder Reguläre Ausdrück [Syntax, Python-Style](https://regex101.com/) sinnvoll sind und das Training verbessern können. 
      - Als Beispiel für einen Wörterbuch, verwenden Sie gerne die im git abgelegte Liste mit [Städtenamen]((https://www.example.com)) oder laden Sie eine eigene hoch.
      - Als Beispiel für einen regulären Ausdruck zum erkennen eines Datums, verwenden Sie gerne ``` ^/(31|30|[012]\d|\d)[./](0\d|1[012]|\d)[./](\d{4}|\d\d)$/ ```
      - Testen Sie über die OpenAPI Schnittstelle, wie sich das Extraktions-Ergebnis verbessert hat.
