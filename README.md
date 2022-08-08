@@ -36,6 +36,8 @@ Ihr könnt mit eigenen Daten arbeiten oder vorbereitete Informationen im git fin
 
 ### Mögliche Herausforderungen 
 
+Hinweis: Aktuell sind die gerenierten Services noch öffentlich verfügbar, sofern der Link bekannt ist. 
+
 1. Sentiment-Analyse: Nachvollziehen des Demo-Projekts 
      - Versuchen Sie Projekt aus dem [Video]|(www.youtube.com/laizee/starter-sentiment) schrittweise nach zu implementieren.
      - Benutzen Sie dazu gerne die im git abgelegten [Demo-Daten](https://www.example.com). 
