@@ -17,7 +17,7 @@ Alles, was Euch auffällt, ist relevant. Toll wäre, wenn ihr die Ergebnisse als
 
 Die Plattform ist erreichbar über: 
 - https://staging.taggingmatters.de/. 
-Du bist als Benutzer registriert und hast per Mail die Zugangsdaten erhalten. Bitte keine weiteren Benutzer anlegen.  
+- Du bist als Benutzer registriert und hast per Mail die Zugangsdaten erhalten. Bitte keine weiteren Benutzer anlegen.  
 
 ### Kontakte
 
