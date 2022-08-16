@@ -208,35 +208,7 @@
                     </dependency>
                 </dependencies>
             </plugin>
-            <!--<plugin>
-                <groupId>io.swagger.codegen.v3</groupId>
-                <artifactId>swagger-codegen-maven-plugin</artifactId>
-                <version>3.0.34</version>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>generate</goal>
-                        </goals>
-                        <configuration>
-                            <inputSpec>${project.basedir}/src/main/resources/openapi.json</inputSpec>
-                            <language>java</language>
-                            <apiPackage>io.codejournal.maven.swagger2java.api</apiPackage>
-                            <modelPackage>io.codejournal.maven.swagger2java.model</modelPackage>
-                            <invokerPackage>io.codejournal.maven.swagger2java.handler</invokerPackage>
-                            <generateApiTests>false</generateApiTests>
-                            <generateApiDocumentation>false</generateApiDocumentation>
-                            <generateModelTests>false</generateModelTests>
-                            <generateModelDocumentation>false</generateModelDocumentation>
-                            <generateSupportingFiles>true</generateSupportingFiles>
-                            <configOptions>
-                                <interfaceOnly>true</interfaceOnly>
-                                <dateLibrary>java11</dateLibrary>
-                            </configOptions>
-                            <library>resttemplate</library>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>-->
+
         </plugins>
     </build>
 </project>

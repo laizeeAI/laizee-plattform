@@ -11,6 +11,7 @@ import de.fhaachen.service.AnalysisService;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.web.client.HttpClientErrorException;
 import org.springframework.web.client.ResourceAccessException;
 
 import java.util.ArrayList;
@@ -38,7 +39,7 @@ public class GenericNlpAnalysisServiceImpl implements AnalysisService {
                                              String serviceName) {
         List<AnalyzeResponse> responses = new ArrayList<>();
         analyzeRequests.forEach(value -> {
-            AnalyzeResponse analyzeResponses;
+            AnalyzeResponse analyzeResponses=null;
             try {
                 LOGGER.info(LoggerConstants.SEPARATOR);
                 LOGGER.info("# Sending Text: ");
@@ -56,9 +57,11 @@ public class GenericNlpAnalysisServiceImpl implements AnalysisService {
                     LOGGER.info(LoggerConstants.SEPARATOR);
                 }
             } catch (ResourceAccessException e) {
-                e.printStackTrace();
+                LOGGER.error("Nlp-Service is not available. Check URL and your network connection.");
                 System.exit(0);
-                throw new ResourceAccessException("Nlp-Service is not available. Check URL and your network connection");
+            } catch (HttpClientErrorException e) {
+                LOGGER.error("No deployed Nlp-Service is not available. Check service name and project id");
+                System.exit(0);
             }
             responses.add(analyzeResponses);
         });

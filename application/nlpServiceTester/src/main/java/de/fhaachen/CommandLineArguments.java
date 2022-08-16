@@ -1,5 +1,6 @@
 package de.fhaachen;
 
+import lombok.Getter;
 import org.kohsuke.args4j.Option;
 
 /**
@@ -12,39 +13,44 @@ public class CommandLineArguments {
     private String profiles;
 
     /**
-     * Example: testdata.json in the resource folder
+     * Example: ../testdata.json in the resource folder
      */
-    @Option(name = "-filename", usage = "json-input file with test data")
+    @Option(name = "-filename", usage = "json-input file with test data" )
     public String fileName;
 
     /**
-     * Example: <a href="http://www.domain.com/servicename">
+     * Example: <a href="https://staging.taggingmatters.de/">
      */
     @Option(name = "-url", usage = "valid url to nlp-webservice including protocol")
+    @Getter
     public String url;
 
     /**
      * Example:
      */
-    @Option(name = "-username", usage = "valid username", hidden = true)
+    @Option(name = "-username", usage = "valid username", hidden = true, required = true)
+    @Getter
     public String username;
 
     /**
      * Example:
      */
-    @Option(name = "-password", usage = "valid password", hidden = true)
+    @Option(name = "-password", usage = "valid password", hidden = true, required = true)
+    @Getter
     public String password;
 
     /**
      * Example:
      */
-    @Option(name = "-projectid", usage = "valid projectId", hidden = true)
+    @Option(name = "-projectid", usage = "valid projectId", hidden = true, required = true)
+    @Getter
     public String projectId;
 
     /**
      * Example:
      */
-    @Option(name = "-servicename", usage = "valid serviceName", hidden = true)
+    @Option(name = "-servicename", usage = "valid serviceName", hidden = true, required = true)
+    @Getter
     public String serviceName;
 
     /**
@@ -54,7 +60,7 @@ public class CommandLineArguments {
      */
     public String getFileName() {
         if (fileName == null) {
-            return "testdata.json";
+            return "../testdata-de.json";
         }
         return fileName;
     }
@@ -66,57 +72,8 @@ public class CommandLineArguments {
      */
     public String getUrl() {
         if (url == null) {
-            // TODO remove?
-            return "http://149.201.187.221/";
+            return "https://staging.taggingmatters.de/";
         }
         return url;
-    }
-
-    /**
-     * Returns the username of the nlp service endpoint.
-     *
-     * @return username of the nlp service endpoint user
-     */
-    public String getUsername() {
-        if (username == null) {
-            return "admin";
-        }
-        return username;
-    }
-
-    /**
-     * Returns the username of the nlp service endpoint.
-     *
-     * @return username of the nlp service endpoint user
-     */
-    public String getPassword() {
-        if (password == null) {
-            return "password";
-        }
-        return password;
-    }
-
-    /**
-     * Returns the username of the nlp service endpoint.
-     *
-     * @return username of the nlp service endpoint user
-     */
-    public String getProjectId() {
-        if (projectId == null) {
-            return "1";
-        }
-        return projectId;
-    }
-
-    /**
-     * Returns the username of the nlp service endpoint.
-     *
-     * @return username of the nlp service endpoint user
-     */
-    public String getServiceName() {
-        if (serviceName == null) {
-            return "test";
-        }
-        return serviceName;
     }
 }

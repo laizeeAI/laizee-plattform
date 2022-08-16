@@ -487,7 +487,13 @@ public class ApiClient {
                                            ParameterizedTypeReference<T> returnType) throws RestClientException {
         updateParamsForAuth(authNames, queryParams, headerParams);
 
-        final UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(basePath).path(path);
+        UriComponentsBuilder builder=null;
+        try {
+            builder = UriComponentsBuilder.fromHttpUrl(basePath).path(path);
+        } catch (IllegalArgumentException e) {
+            LOGGER.error("URL not valid. Check if protocol, e.g. https:// is included");
+            System.exit(0);
+        }
         if (queryParams != null) {
             builder.queryParams(queryParams);
         }
@@ -511,8 +517,10 @@ public class ApiClient {
             return responseEntity;
         } else {
             // The error handler built into the RestTemplate should handle 400 and 500 series errors.
-            throw new RestClientException("API returned " + responseEntity.getStatusCode() + " and it wasn't handled by the RestTemplate error handler");
+            LOGGER.error("API returned " + responseEntity.getStatusCode() + " and it wasn't handled by the RestTemplate error handler");
+            System.exit(0);
         }
+        return responseEntity;
     }
 
     /**

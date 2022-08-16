@@ -7,7 +7,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
 
 public class CommandLineArgumentsTest {
-
+/*
     private CommandLineArguments getArgs(String... args) throws Exception {
         CommandLineArguments arguments = new CommandLineArguments();
         new CmdLineParser(arguments).parseArgument(args);
@@ -37,5 +37,5 @@ public class CommandLineArgumentsTest {
         CommandLineArguments args = getArgs("-filename", "file");
         assertThat(args.getFileName().toString(), is("file"));
     }
-
+*/
 }

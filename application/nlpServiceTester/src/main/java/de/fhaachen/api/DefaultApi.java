@@ -344,7 +344,7 @@ public class DefaultApi {
                     authNames,
                     returnType);
         } catch (HttpClientErrorException httpClientErrorException) {
-            LOGGER.info("Login Error - Client not found!");
+            LOGGER.info("Login Error - Client not found! Check username and password");
             System.exit(0);
         }
         HttpHeaders headers = response.getHeaders();

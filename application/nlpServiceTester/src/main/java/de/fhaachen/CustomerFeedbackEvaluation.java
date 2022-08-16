@@ -71,21 +71,10 @@ public class CustomerFeedbackEvaluation implements CommandLineRunner {
         try {
             new CmdLineParser(ARGUMENTS).parseArgument(args);
         } catch (CmdLineException e) {
-            LOGGER.error("Could not parse command line arguments.", e);
-            logAdditionalInfo();
+            LOGGER.info("Could not parse command line arguments.", e);
             return;
         }
         SpringApplication.run(CustomerFeedbackEvaluation.class, args);
-    }
-
-    @SneakyThrows(IOException.class)
-    private static void logAdditionalInfo() {
-        String decodedString;
-        try (ByteArrayOutputStream outStream = new ByteArrayOutputStream()) {
-            new CmdLineParser(ARGUMENTS).printUsage(outStream);
-            decodedString = outStream.toString(StandardCharsets.UTF_8);
-        }
-        Arrays.stream(decodedString.split("\n")).forEach(LOGGER::info);
     }
 
     @Override
