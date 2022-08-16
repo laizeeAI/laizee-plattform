@@ -6,13 +6,15 @@ Demo-application to test an running NLP-webservice.
 
 ## How to prepare:
 
+```bash
 mvn clean install
+```
 
 ## How to start 
 ```bash
 $ java -jar NlpServiceTester.jar         
        -filename=testdata-de.json 
-       -url=https://149.201.187.217/     
+       -url=https://staging.taggingmatters.de/     
        -projectid=1
        -projectname=test-project
        -servicename=las-web
@@ -25,9 +27,9 @@ $ java -jar NlpServiceTester.jar
 |-----------|------|
 | -jar      | Application Name      |
 | -filenname | Path to Testdata      |
-| -url | Location of your webservice      |
-| -projectid | default is 1      |
-| -servicename | Name of your project, e.g. travelcom-analyser      |
+| -url | Location of your webservice, e.g. https://staging.taggingmatters.de      |
+| -projectid | Find the project id (at the moment) in the url (behind 'projects') inside our platform      |
+| -servicename | Name of your service, e.g. travelcom-analyser, look at your deployments      |
 | -username | User you use to acces the platform     |
 | -password | Password you use to acces the platform  |
 
