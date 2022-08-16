@@ -1,3 +1,5 @@
+<img src="logo.svg"/>
+
 # Laizee AI Plattform
 language analytics made easy!
 
