@@ -48,7 +48,7 @@ Ihr könnt mit eigenen Daten arbeiten oder vorbereitete Informationen im git fin
      - Benutzen Sie dazu gerne die im git abgelegten Demo-Daten, z.B. den nicht-annotierten Datensatz, siehe oben. 
      - Annotieren Sie, versuchen Sie auch die Tastatur zu verwenden. Hinweis: Sie müssen jede Auswahl mit *Enter* bestätigen
      - Trainieren Sie, verwenden Sie hierzu die *Standard-Konfiguration*. Hinweis: Mit dem Beispiel-Datensatz wird das Training bis zu 30 Minuten benötigen.  
-     - Deployen Sie den laizee-NLP-Webservice.
+     - Deployen Sie den laizee-NLP-Webservice. Im Menü *Deployments* finden Sie Ihre Deployments, über den *Open-Button* können Sie den Zustand des Webservice erkennen. 
      - Testen Sie über die OpenAPI Schnittstelle, ob der Satz *Von Frankfurt nach Hamburg in nur 4 Stunden. Wie immer alles perfekt gelaufen!* korrekt klassifiziert wird.
      - Wenn die Qualität nicht ausreicht, versuchen Sie über weiteres Tagging bessere Ergbnisse zu erreichen. Hinweis: Richtig gut wird es erst ab 50% ;-)
 2. Information-Extraction: Neuen Projekttyp verwenden
