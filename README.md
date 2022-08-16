@@ -35,7 +35,7 @@ Ihr könnt mit eigenen Daten arbeiten oder vorbereitete Informationen im git fin
  - Labels: 
 - CSV-Liste mit deutschen Städtenamen
 - Java-Maven-Projekt zur Integration des NLP-Webservice und zum automatisierten Test 
-- Starter-Video zur Sentiment-Analysis auf Youtube  [Video]|(https://youtu.be/nWv3rnFqH7k)
+- Starter-Video zur Sentiment-Analysis auf Youtube  [Video](https://youtu.be/nWv3rnFqH7k)
 
 ### Mögliche Herausforderungen 
 
