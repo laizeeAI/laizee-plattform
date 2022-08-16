@@ -15,7 +15,9 @@ Vielen Dank dass ihr bereit seid, die Plattform zu pilotieren. Euer Feedback ist
 
 Alles, was Euch auffällt, ist relevant. Toll wäre, wenn ihr die Ergebnisse als Issues im git dokumentiert.  
 
-Die Plattform ist erreichbar über: https://staging.taggingmatters.de/. Du bist als Benutzer registriert und hast Mail die Zugangsdaten erhalten. 
+Die Plattform ist erreichbar über: 
+- https://staging.taggingmatters.de/. 
+Du bist als Benutzer registriert und hast per Mail die Zugangsdaten erhalten. Bitte keine weiteren Benutzer anlegen.  
 
 ### Kontakte
 
