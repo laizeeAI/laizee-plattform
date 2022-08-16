@@ -50,7 +50,7 @@ Ihr könnt mit eigenen Daten arbeiten oder vorbereitete Informationen im git fin
      - Trainieren Sie, verwenden Sie hierzu die *Standard-Konfiguration*. Hinweis: Mit dem Beispiel-Datensatz wird das Training bis zu 30 Minuten benötigen.  
      - Deployen Sie den laizee-NLP-Webservice. Im Menü *Deployments* finden Sie Ihre Deployments, über den *Open-Button* können Sie den Zustand des Webservice erkennen. 
      - Testen Sie über die OpenAPI Schnittstelle, ob der Satz *Von Frankfurt nach Hamburg in nur 4 Stunden. Wie immer alles perfekt gelaufen!* korrekt klassifiziert wird.
-     - Wenn die Qualität nicht ausreicht, versuchen Sie über weiteres Tagging bessere Ergbnisse zu erreichen. Hinweis: Richtig gut wird es erst ab 50% ;-)
+     - Wenn die Qualität nicht ausreicht, versuchen Sie über weiteres Tagging bessere Ergebnisse zu erreichen. Hinweis: Richtig gut wird es erst ab 50% ;-)
 2. Information-Extraction: Neuen Projekttyp verwenden
      - Erstellen Sie ein neues Projekt und wählen Sie den Projekttyp *Information Extraction"
      - Überlegen Sie die benötigten Label, legen Sie diese an und beschreiben Sie sie in der *Tagging Guideline*. 
