@@ -9,16 +9,16 @@ Demo-application to test an running NLP-webservice.
 mvn clean install
 
 ## How to start 
-<code> 
-      java 
-      -jar NlpServiceTester.jar         
-      -filename=testdata-de.json 
-      -url=https://149.201.187.217/     
-      -projectid=1
-      -servicename=test-project-1-las-web 
-      -username=yourUserName
-      -password=yourPassword 
-</code><p></p>
+```bash
+$ java -jar NlpServiceTester.jar         
+       -filename=testdata-de.json 
+       -url=https://149.201.187.217/     
+       -projectid=1
+       -projectname=test-project
+       -servicename=las-web
+       -username=yourUserName
+       -password=yourPassword 
+```
 
 
 | Attribute | Info |
