@@ -18,9 +18,8 @@ mvn clean install
       -servicename=test-project-1-las-web 
       -username=yourUserName
       -password=yourPassword 
-</code><p>
+</code><p></p>
 
-Attributes
 
 | Attribute | Info |
 |-----------|------|
