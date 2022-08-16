@@ -68,10 +68,9 @@ Ihr könnt mit eigenen Daten arbeiten oder vorbereitete Informationen im git fin
      - Ermitteln Sie innerhalb der Platform, wie die Modell-Performance sich entwickelt. 
 4. Integrieren des NLP-Webservice in Ihre Anwendung
      - Erstellen Sie eine einfache Anwendung, die den generieren Webservice verwendet. 
-     - Verwenden Sie gerne die [Java-Vorlage](git) für eine Konsolenanwendung (Java ab 11 und Maven erforderlich) im git. 
-     - Ein zu den Demo-Daten passender, annotierter Testdatensatz ist hier bereits mit hinterlegt.
-     - Passend Sie in der Datei main.java den Pfad zu Ihren Webservice an und starten Sie die Anwendung 
-        - ``` java -jar laizee4Me.jar``` 
+     - Verwenden Sie gerne die [Java-Vorlage](./application) für eine Konsolenanwendung (Java ab 11 und Maven erforderlich) im git. 
+     - Ein zu den Demo-Daten passender, annotierter [Testdatensatz](./application/nlpServiceTester/testdata-de.json) ist hier bereits mit hinterlegt.
+     - Folgen Sie der [Anleitung](./application/nlpServiceTester/README.md) zum übersetzen und starten der Anwendung.   
 5. Eigene Projekte 
      - Experimentieren Sie mit Ihren eigenen Daten und Herausforderungen
      - Erzählen Sie uns von Ihren Herausforderungen
