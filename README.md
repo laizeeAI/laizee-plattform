@@ -19,35 +19,38 @@ Alles, was Euch auffällt, ist relevant. Toll wäre, wenn ihr die Ergebnisse als
 
 Wenn ihr nicht weiter kommt, stehen wir Euch sehr gerne zur Seite. Leider sind wg. der Urlaubszeit nicht immer alle verfürbar.
 
-- Philipp Kohl, 0151/12345678, philipp@laizee.ai
-- Lars Klöser, 0151/12345678, lars@laizee.ai
-- André Büsgen, 0151/12345678, andre@laizee.ai (Urlaub 06.08.2022-28.08.2022)
-- Henri Werth, 0151/12345678, werth@laizee.ai (Urlaub 20.08.2022-??.09.2022)
+- Philipp Kohl, 0151/12345678 
+- Lars Klöser, 0151/12345678
+- André Büsgen, 0151/12345678 (Urlaub 06.08.2022-28.08.2022)
+- Henri Werth, 0151/12345678 (Urlaub 20.08.2022-??.09.2022)
 - Bodo Kraft, 0151 / 122 93 722, bodo@laizee.ai
+
+oder am Besten an: support@laizee.ai.
 
 ### Wichtige Ressourcen
 
 Ihr könnt mit eigenen Daten arbeiten oder vorbereitete Informationen im git finden:
 
-- Demo-Daten: Nicht annotierter Datensatz mit Kundenfeedback. 
+- Demo-Daten: Annotierter und nicht-annotierter, deutscher Datensatz mit Kundenfeedback. 
+ - Labels: 
 - CSV-Liste mit deutschen Städtenamen
 - Java-Maven-Projekt zur Integration des NLP-Webservice und zum automatisierten Test 
-- Starter-Video zur Sentiment-Analysis auf Youtube  [Video]|(www.youtube.com/laizee/starter-sentiment)
+- Starter-Video zur Sentiment-Analysis auf Youtube  [Video]|(https://youtu.be/nWv3rnFqH7k)
 
 ### Mögliche Herausforderungen 
 
 Hinweis: Aktuell sind die gerenierten Services noch öffentlich verfügbar, sofern der Link bekannt ist. 
 
 1. Sentiment-Analyse: Nachvollziehen des Demo-Projekts 
-     - Versuchen Sie Projekt aus dem [Video]|(www.youtube.com/laizee/starter-sentiment) schrittweise nach zu implementieren.
-     - Benutzen Sie dazu gerne die im git abgelegten [Demo-Daten](https://www.example.com). 
+     - Versuchen Sie Projekt aus dem Video schrittweise nach zu implementieren.
+     - Benutzen Sie dazu gerne die im git abgelegten Demo-Daten, siehe oben. 
      - Testen Sie über die OpenAPI Schnittstelle, ob der Satz *Drive from Frankfurt to Hamburg, as always a pleasure!* korrekt klassifiziert wird.
 2. Information-Extraction: Neuen Projekttyp verwenden
      - Erstellen Sie ein neues Projekt und wählen Sie den Projekttyp *Information Extraction"
-     - Überlegen Sie die benötigten Label, legen Sie diese an und beschreiben Sie sie in der *Tagging Guideline*
-     - Erstellen Sie ihren annotierten Corpus, benutzen Sie dazu gerne die im git abgelegten [Demo-Daten](https://www.example.com).
-     - Prüfen Sie, ob ihr annotierter Corpus gut balanciert ist und ergänzen Sie ggf. ihr Tagging
-     - Erstellen Sie ein erstes Modell und Deployen Sie es
+     - Überlegen Sie die benötigten Label, legen Sie diese an und beschreiben Sie sie in der *Tagging Guideline*. 
+     - Erstellen Sie ihren annotierten Corpus, benutzen Sie dazu gerne die im git abgelegten Daten. Wenn Sie nicht Taggen möchten, verwenden Sie den bereits annotierten Corpus mit den vordefinierten Labels.
+     - Prüfen Sie, ob der annotierter Corpus gut balanciert ist und ergänzen Sie ggf. ihr Tagging
+     - Erstellen Sie ein erstes Modell und deployen Sie es
      - Testen Sie über die OpenAPI Schnittstelle, ob der Satz *Drive from Frankfurt to Hamburg, as always a pleasure!* korrekt extrahiert wird.
 3. Optimieren Sie Ihr Projekt
      - *Überlegen Sie, welche *Regeln*, z.B. Wörterbuch-Einträge oder Reguläre Ausdrück [Syntax, Python-Style](https://regex101.com/) sinnvoll sind und das Training verbessern können. 
