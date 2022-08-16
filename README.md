@@ -46,8 +46,11 @@ Ihr könnt mit eigenen Daten arbeiten oder vorbereitete Informationen im git fin
 1. Sentiment-Analyse: Nachvollziehen des Demo-Projekts 
      - Versuchen Sie Projekt aus dem Video schrittweise nach zu implementieren.
      - Benutzen Sie dazu gerne die im git abgelegten Demo-Daten, z.B. den nicht-annotierten Datensatz, siehe oben. 
-     - Annotieren, Trainieren und Deployen Sie den laizee-NLP-Webservice.
+     - Annotieren Sie, versuchen Sie auch die Tastatur zu verwenden. Hinweis: Sie müssen jede Auswahl mit *Enter* bestätigen
+     - Trainieren Sie, verwenden Sie hierzu die *Standard-Konfiguration*. Hinweis: Mit dem Beispiel-Datensatz wird das Training bis zu 30 Minuten benötigen.  
+     - Deployen Sie den laizee-NLP-Webservice.
      - Testen Sie über die OpenAPI Schnittstelle, ob der Satz *Drive from Frankfurt to Hamburg, as always a pleasure!* korrekt klassifiziert wird.
+     - Wenn die Qualität nicht ausreicht, versuchen Sie über weiteres Tagging bessere Ergbnisse zu erreichen. Hinweis: Richtig gut wird es erst ab 50% ;-)
 2. Information-Extraction: Neuen Projekttyp verwenden
      - Erstellen Sie ein neues Projekt und wählen Sie den Projekttyp *Information Extraction"
      - Überlegen Sie die benötigten Label, legen Sie diese an und beschreiben Sie sie in der *Tagging Guideline*. 
