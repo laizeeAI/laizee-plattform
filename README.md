@@ -31,9 +31,9 @@ oder am Besten an: support@laizee.ai.
 
 Ihr könnt mit eigenen Daten arbeiten oder vorbereitete Informationen im git finden:
 
-- Demo-Daten: Annotierter und nicht-annotierter, deutscher Datensatz mit Kundenfeedback. 
- - Labels: 
-- CSV-Liste mit deutschen Städtenamen
+- Demo-Daten: [Annotierter](./inputdata/corpus/KundenKommunikation_ner_annotiert.jsonl) und [nicht-annotierter](./inputdata/corpus/KundenKommunikation.jsonl), deutscher Datensatz mit Kundenfeedback. 
+   - Labels: PLACE, ...
+- CSV-Liste mit deutschen [Städtenamen](./inputdata/DeutscheStaedtenamen.csv)
 - Java-Maven-Projekt zur Integration des NLP-Webservice und zum automatisierten Test 
 - Starter-Video zur Sentiment-Analysis auf [Youtube-Video](https://youtu.be/nWv3rnFqH7k)
 
