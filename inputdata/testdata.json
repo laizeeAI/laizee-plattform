@@ -1,0 +1,30 @@
+[
+  {
+    "inputText": "Yesterday, 31.08.1972, I was travelling from Cologne to Hamburg first class. Next time I will travel in December",
+    "result": {
+      "place": [
+        "Cologne",
+        "Hamburg"
+      ],
+      "dateTime": [
+        "31.08.1972",
+        "December"
+      ],
+      "product": "first class"
+    }
+  },
+  {
+    "inputText": "I will go to New York with good-night ticket",
+    "result": {
+      "place": [
+        "New York"
+      ],
+      "dateTime": [],
+      "product": "good-night ticket"
+    }
+  },
+  {
+    "inputText": "When we travelled this weekend to Sylt with the 9€ Ticket, we had a great time.",
+    "result": []
+  }
+]

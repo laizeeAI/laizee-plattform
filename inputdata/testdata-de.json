@@ -1,0 +1,26 @@
+[
+  {
+    "inputText": "Gestern, am 31.08.1972, reiste ich in der ersten Klasse von Köln nach Hamburg. Das nächste Mal werde ich im Dezember reisen",
+    "result": {
+      "LOC": [
+        "Köln",
+        "Hamburg"
+      ],
+      "MISC": [
+        "31.08.1972",
+        "Dezember"
+      ],
+      "PROD": "ersten Klasse"
+    }
+  },
+  {
+    "inputText": "Ich fahre mit dem Gute-Nacht-Ticket nach New York",
+    "result": {
+      "LOC": [
+        "New York"
+      ],
+      "MISC": [],
+      "PROD": "Gute-Nacht-Ticket"
+    }
+  }
+]
