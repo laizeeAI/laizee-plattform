@@ -47,7 +47,7 @@ Ihr könnt mit eigenen Daten arbeiten oder vorbereitete Informationen im git fin
 
 1. Sentiment-Analyse: Nachvollziehen des Demo-Projekts 
      - Versuchen Sie Projekt aus dem Video schrittweise nach zu implementieren.
-     - Benutzen Sie dazu gerne die im git abgelegten Demo-Daten, z.B. den nicht-annotierten Datensatz, siehe oben. 
+     - Benutzen Sie dazu gerne die im git abgelegten Demo-Daten, z.B. den nicht-annotierten Datensatz, siehe oben. Wählen Sie in diesem beim Upload im Feld *File Format* den Eintrag *JSONL*. 
      - Annotieren Sie, versuchen Sie auch die Tastatur zu verwenden. Hinweis: Sie müssen jede Auswahl mit *Enter* bestätigen
      - Trainieren Sie, verwenden Sie hierzu die *Standard-Konfiguration*. Hinweis: Mit dem Beispiel-Datensatz wird das Training bis zu 30 Minuten benötigen.  
      - Deployen Sie den laizee-NLP-Webservice. Im Menü *Deployments* finden Sie Ihre Deployments, über den *Open-Button* können Sie den Zustand des Webservice erkennen. 
