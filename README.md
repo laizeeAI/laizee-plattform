@@ -56,7 +56,7 @@ Ihr könnt mit eigenen Daten arbeiten oder vorbereitete Informationen im git fin
 2. Information-Extraction: Neuen Projekttyp verwenden
      - Erstellen Sie ein neues Projekt und wählen Sie den Projekttyp *Information Extraction"
      - Überlegen Sie die benötigten Label, legen Sie diese an und beschreiben Sie sie in der *Tagging Guideline*. 
-     - Erstellen Sie ihren annotierten Corpus, benutzen Sie dazu gerne die im git abgelegten Daten. Wenn Sie nicht Taggen möchten, verwenden Sie den bereits annotierten Corpus mit den vordefinierten Labels.
+     - Erstellen Sie ihren annotierten Corpus, benutzen Sie dazu gerne die im git abgelegten Daten. Wenn Sie nicht Taggen möchten, verwenden Sie den bereits annotierten Corpus mit den vordefinierten Labels. Wählen Sie in diesem beim Upload im Feld *File Format* den Eintrag *JSONL* und im Feld *Column Label* den Wert *labels*
      - Prüfen Sie, ob der annotierter Corpus gut balanciert ist und ergänzen Sie ggf. ihr Tagging
      - Erstellen Sie ein erstes Modell und deployen Sie es
      - Testen Sie über die OpenAPI Schnittstelle, ob der Satz *Drive from Frankfurt to Hamburg, as always a pleasure!* korrekt extrahiert wird.
