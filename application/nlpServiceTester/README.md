@@ -17,7 +17,6 @@ $ java -jar NlpServiceTester.jar
        -filename=../testdata-de.json 
        -url=https://staging.taggingmatters.de/     
        -projectid=1
-       -projectname=test-project
        -servicename=las-web
        -username=yourUserName
        -password=yourPassword 

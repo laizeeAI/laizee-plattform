@@ -89,6 +89,11 @@
             <artifactId>commons-beanutils</artifactId>
             <version>1.9.4</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.13</version>
+        </dependency>
         <!-- Tests -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -131,18 +136,6 @@
             <artifactId>junit-vintage-engine</artifactId>
             <version>5.8.1</version>
         </dependency>
-        <dependency>
-            <groupId>org.apache.httpcomponents</groupId>
-            <artifactId>httpclient</artifactId>
-            <version>4.5.13</version>
-        </dependency>
-        <dependency>
-            <groupId>org.jetbrains</groupId>
-            <artifactId>annotations</artifactId>
-            <version>RELEASE</version>
-            <scope>compile</scope>
-        </dependency>
-
     </dependencies>
     <profiles>
         <profile>
@@ -173,7 +166,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.7.2</version>
                 <configuration>
-                    <mainClass>de.fhaachen.CustomerFeedbackEvaluation</mainClass>
+                    <mainClass>de.laizee.CustomerFeedbackEvaluation</mainClass>
                     <executable>true</executable>
                 </configuration>
                 <executions>
@@ -182,7 +175,7 @@
                         <phase>package</phase>
                         <configuration>
                             <finalName>NlpServiceTester</finalName>
-                            <mainClass>de.fhaachen.CustomerFeedbackEvaluation</mainClass>
+                            <mainClass>de.laizee.CustomerFeedbackEvaluation</mainClass>
                             <outputDirectory>jar</outputDirectory>
                         </configuration>
                         <goals>

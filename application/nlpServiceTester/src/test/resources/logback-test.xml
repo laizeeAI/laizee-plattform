@@ -19,7 +19,7 @@
     <root level="error">
         <appender-ref ref="STDOUT"/>
     </root>
-    <logger name="de.fhaachen" level="debug"/>
+    <logger name="de.laizee" level="debug"/>
     <include resource="org/springframework/boot/logging/logback/base.xml" />
     <logger name="org.springframework" level="ERROR"/>
 </configuration>

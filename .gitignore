@@ -109,6 +109,7 @@ nb-configuration.xml
 
 # IntelliJ
 /out/
+/application/nlpServiceTester/.idea/
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
@@ -124,3 +125,7 @@ fabric.properties
 
 ### Intellij Patch ###
 *.iml
+
+### jar ###
+/application/nlpServiceTester/jar/
+
