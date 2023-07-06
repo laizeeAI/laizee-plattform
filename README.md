@@ -23,15 +23,7 @@ Die Plattform ist erreichbar über:
 
 ### Kontakte
 
-Wenn ihr nicht weiter kommt, stehen wir Euch sehr gerne zur Seite. Leider sind wg. der Urlaubszeit nicht immer alle verfürbar.
-
-- Philipp Kohl, 0151/12345678 
-- Lars Klöser, 0151/12345678
-- André Büsgen, 0151/12345678 (Urlaub 06.08.2022-28.08.2022)
-- Henri Werth, 0157 / 301 83 799 (Urlaub 20.08.2022-13.09.2022)
-- Bodo Kraft, 0151 / 122 93 722, bodo@laizee.ai
-
-oder am Besten an: support@laizee.ai.
+support@laizee.ai.
 
 ### Wichtige Ressourcen
 
