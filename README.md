@@ -47,7 +47,6 @@ Ihr könnt mit eigenen Daten arbeiten oder vorbereitete Informationen im git fin
 ### Mögliche Herausforderungen 
 
 1. Sentiment-Analyse: Nachvollziehen des Demo-Projekts 
-     - [Versuchen Sie Projekt aus dem Video schrittweise bis zum Punkt des Trainings nach zu implementieren.]
      - Nachdem Sie ihre Eingangsdaten bekommen haben, können Sie sich auf der Plattform anmelden. 
      - Erstellen Sie ein Projekt unter dem Button *Erstellen* mit einem beliebigen Namen und dem *Projektyp* *Textklassifikation*. Sie müssen außerdem eine kuzre *Beschreibung* hinzufügen.
      - Klicken Sie jetzt unter *Datensatz* auf *Dokumentenübersicht* und wählen Sie über den *Aktion* Button *Datensatz uploaden* aus.
