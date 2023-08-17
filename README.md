@@ -1,37 +1,34 @@
 <img src="logo.svg"/>
 
 # Laizee AI Plattform
-language analytics made easy!
 
-Our mission is to enable our customers to rapidly develop and deliver productive natural language processing web services. In order to achieve optimal results, we combine classic computer science methods with current approaches in the field of AI, especially for natural language processing. You can work low-code purely application-related and tune model and parameters on request.
+Sprachanalytik leicht gemacht!
 
-For this purpose, we provide our platform, which consistently implements the ML-Ops idea. We follow an agile, incremental approach that leads directly to a basic AI model and a cloud-deployed web service.
+Unsere Mission ist es, unsere Kunden in die Lage zu versetzen, schnell produktive Webservices für die Verarbeitung natürlicher Sprache zu entwickeln und bereitzustellen. Um optimale Ergebnisse zu erzielen, kombinieren wir klassische Methoden der Informatik mit aktuellen Ansätzen aus dem Bereich der KI, speziell für die Verarbeitung natürlicher Sprache. Sie können low-code rein anwendungsbezogen arbeiten und auf Wunsch Modell und Parameter tunen.
 
-On demand, we support you in every step of your project and optimize your application together with you. As you are the expert in your domain, you know best the challenges that need to be solved. If you have any questions dont hesitate to contact us directly
+Hierfür stellen wir unsere Plattform zur Verfügung, die den ML-Ops-Gedanken konsequent umsetzt. Wir verfolgen einen agilen, inkrementellen Ansatz, der direkt zu einem grundlegenden KI-Modell und einem in der Cloud bereitgestellten Webservice führt.
 
+Auf Wunsch unterstützen wir Sie bei jedem Schritt Ihres Projekts und optimieren gemeinsam mit Ihnen Ihre Anwendung. Da Sie der Experte in Ihrem Bereich sind, kennen Sie die Herausforderungen, die es zu lösen gilt, am besten. Wenn Sie Fragen haben, zögern Sie nicht, uns direkt zu kontaktieren
 
 
 ## Informationen für Pilot-User
 
 Vielen Dank dass ihr bereit seid, die Plattform zu pilotieren. Euer Feedback ist für uns unglaublich wichtig. 
 
-Alles, was Euch auffällt, ist relevant. Toll wäre, wenn ihr die Ergebnisse als Issues im git dokumentiert.  
+Alles, was Euch auffällt, ist relevant. Toll wäre, wenn ihr die Ergebnisse als Issues im git dokumentiert.
+  
 
 Die Plattform ist erreichbar über: 
-- https://staging.taggingmatters.de/. 
-- Du bist als Benutzer registriert und hast per Mail die Zugangsdaten erhalten. Bitte keine weiteren Benutzer anlegen.  
+- https://demo.laizee.ai. 
+- Falls Sie nicht registriert sind, regristrieren Sie sich über die Website und wir geben den Account kurzfristig frei.
+- Sie sind als Benutzer registriert und haben per Mail die Zugangsdaten erhalten. Bitte keine weiteren Benutzer anlegen.  
 
 ### Kontakte
 
 Wenn ihr nicht weiter kommt, stehen wir Euch sehr gerne zur Seite. Leider sind wg. der Urlaubszeit nicht immer alle verfürbar.
 
-- Philipp Kohl, 0151/12345678 
-- Lars Klöser, 0151/12345678
-- André Büsgen, 0151/12345678 (Urlaub 06.08.2022-28.08.2022)
-- Henri Werth, 0157 / 301 83 799 (Urlaub 20.08.2022-13.09.2022)
+- Henri Werth,
 - Bodo Kraft, 0151 / 122 93 722, bodo@laizee.ai
-
-oder am Besten an: support@laizee.ai.
 
 ### Wichtige Ressourcen
 
@@ -42,26 +39,27 @@ Ihr könnt mit eigenen Daten arbeiten oder vorbereitete Informationen im git fin
    [Annotierter](./inputdata/corpus/germ_eval_2017_train_labeled.jsonl) und [nicht-annotierter](./inputdata/corpus/germ_eval_2017_train_no_label.jsonl), deutscher Sentiment Analysis Datensatz von Tweets über die Deutsche Bahn
 - CSV-Liste mit deutschen [Städtenamen](./inputdata/DeutscheStaedtenamen.csv)
 - Java-Maven-Projekt zur Integration des NLP-Webservice und zum automatisierten Test 
-- Starter-Video zur Sentiment-Analysis auf [Youtube-Video](https://youtu.be/nWv3rnFqH7k)
 
-### Mögliche Herausforderungen 
+### Tutorial
 
 1. Sentiment-Analyse: Nachvollziehen des Demo-Projekts 
+     - Versuchen Sie Projekt aus dem Video schrittweise bis zum Punkt des Trainings nach zu implementieren.
      - Nachdem Sie ihre Eingangsdaten bekommen haben, können Sie sich auf der Plattform anmelden. 
      - Erstellen Sie ein Projekt unter dem Button *Erstellen* mit einem beliebigen Namen und dem *Projektyp* *Textklassifikation*. Sie müssen außerdem eine kuzre *Beschreibung* hinzufügen.
      - Klicken Sie jetzt unter *Datensatz* auf *Dokumentenübersicht* und wählen Sie über den *Aktion* Button *Datensatz uploaden* aus.
      - Wählen Sie das Format *JSONL* und ändern Sie sonst nichts weiteres. 
      - Sie können jetzt einen Datensatz in das vorgesehene Feld ziehen. 
-     - Benutzen Sie dazu gerne die im git abgelegten Demo-Daten, z.B. den nicht-annotierten Datensatz *bahn_sentiment*, siehe oben (Sentiment Analysis). Wählen Sie in diesem beim Upload im Feld *File Format* den Eintrag *JSONL*. 
+     - Benutzen Sie dazu gerne die im git abgelegten Demo-Daten, z.B. den nicht-annotierten Datensatz, siehe oben (Sentiment Analysis). Wählen Sie in diesem beim Upload im Feld *File Format* den Eintrag *JSONL*.
+     - Erzeugen Sie unter dem Reiter *Datensatz* und dem Feld *Label* zwei Sentimentlabels (z.B. "positive" und "negative").
      - Annotieren Sie, versuchen Sie auch die Tastatur zu verwenden. Hinweis: Sie müssen jede Auswahl mit *Enter* bestätigen
      - Trainieren Sie, verwenden Sie hierzu die *Standard-Konfiguration*. Hinweis: Mit dem Beispiel-Datensatz wird das Training bis zu 30 Minuten benötigen.
      - Unter dem Reiter *Training* können Sie jetzt ein Training starten und dort Ihre Konfiguration angeben. Wählen Sie für den Namen des Trainings einen mit lowercase und alphanumerisch sein (Bsp.: training1).    
      - Deployen Sie den laizee-NLP-Webservice. Unter dem Button *Deployments* können Sie mit dem *+* Zeichen ein neues Deployment erstellen. 
      - In diesem Menü finden alle Deployments, über den *Open-Button* können Sie den Zustand des Webservice erkennen. 
-     - Nachdem Sie ein Deployment erstellt haben und dieses *Healthy* ist, könne Sie auf die OpenAPI Schnittstelle zugreifen. Die Url stellt sich wie folgt zusammen:  [https://][Deploymentname].[Projektname].k8s-demo.laizee.ai/docs
+     - Nachdem Sie ein Deployment erstellt haben und dieses *Healthy* ist, könne Sie auf die OpenAPI Schnittstelle zugreifen. Die Url stellt sich wie folgt zusammen:  *https://**Deploymentname*.*Projektname*.k8s-demo.laizee.ai/docs
      - Über das Feld *Analyze* können Sie nun auf den Button *Try it out* das Textfeld innerhalb des JSON-Beispiels ändern und bekommen unter *Execute* das Ergebnis des Modells bekommen. 
      - Testen Sie über die OpenAPI Schnittstelle, ob der Satz *Die Zugfahrt war ein reines Vergnügen. Alles war sauber und pünktlich* korrekt klassifiziert wird.
-     - Wenn die Qualität nicht ausreicht, versuchen Sie über weiteres Tagging bessere Ergebnisse zu erreichen. Hinweis: Richtig gut wird es erst ab 50% ;-)
+     - Wenn die Qualität nicht ausreicht, versuchen Sie über weiteres Tagging bessere Ergebnisse zu erreichen.
 2. Information-Extraction: Neuen Projekttyp verwenden
      - Erstellen Sie ein neues Projekt und wählen Sie den Projekttyp *Sequence Labeling"
      - Überlegen Sie die benötigten Label, legen Sie diese an und beschreiben Sie sie in der *Tagging Guideline*. 
