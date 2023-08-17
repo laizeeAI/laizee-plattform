@@ -53,7 +53,7 @@ Ihr könnt mit eigenen Daten arbeiten oder vorbereitete Informationen im git fin
      - Klicken Sie jetzt unter *Datensatz* auf *Dokumentenübersicht* und wählen Sie über den *Aktion* Button *Datensatz uploaden* aus.
      - Wählen Sie das Format *JSONL* und ändern Sie sonst nichts weiteres. 
      - Sie können jetzt einen Datensatz in das vorgesehene Feld ziehen. 
-     - Benutzen Sie dazu gerne die im git abgelegten Demo-Daten, z.B. den nicht-annotierten Datensatz, siehe oben (Sentiment Analysis). Wählen Sie in diesem beim Upload im Feld *File Format* den Eintrag *JSONL*. 
+     - Benutzen Sie dazu gerne die im git abgelegten Demo-Daten, z.B. den nicht-annotierten Datensatz *bahn_sentiment*, siehe oben (Sentiment Analysis). Wählen Sie in diesem beim Upload im Feld *File Format* den Eintrag *JSONL*. 
      - Annotieren Sie, versuchen Sie auch die Tastatur zu verwenden. Hinweis: Sie müssen jede Auswahl mit *Enter* bestätigen
      - Trainieren Sie, verwenden Sie hierzu die *Standard-Konfiguration*. Hinweis: Mit dem Beispiel-Datensatz wird das Training bis zu 30 Minuten benötigen.
      - Unter dem Reiter *Training* können Sie jetzt ein Training starten und dort Ihre Konfiguration angeben. Wählen Sie für den Namen des Trainings einen mit lowercase und alphanumerisch sein (Bsp.: training1).    
