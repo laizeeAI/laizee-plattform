@@ -15,7 +15,7 @@ Auf Wunsch unterstützen wir Sie bei jedem Schritt Ihres Projekts und optimieren
 
 Vielen Dank dass ihr bereit seid, die Plattform zu pilotieren. Euer Feedback ist für uns unglaublich wichtig. 
 
-Alles, was Euch auffällt, ist relevant. Toll wäre, wenn ihr die Ergebnisse als Issues im git dokumentiert.
+Alles, was Euch auffällt, ist relevant. Toll wäre, wenn ihr die Ergebnisse als Issues im git dokumentiert. Das Tutorial wird zuerst einen einfachen Sentiment Task beinhalten, bei dem der Nutzer einen kleinen Datensatz von selbsterstellten Kundenfeedback bezüglich der Bahn annotieren kann. Es steht außerdem ein schon fertig annotierter Datensatz bereit. Als zweiten Task wird ein Name Entity Task bezüglich Fragen im Bahnkontext vom Nutzer bearbeitet. Hier geht es darum den Workflow des ersten Teils auf einen neuen Task zu übertragen, der Nutzer soll hierbei bewusst nicht mehr die ganzen Details beschrieben bekommen, da diese schon benannt wurden. Danach wird der Nutzer die Möglichkeiten der Optimierung mittels eines Wörtbuches kennenlernen. Zum Schluss kann der Nutzer eine Beispielanwendung testen, die mit der Plattform kommuniziert.   
   
 
 Die Plattform ist erreichbar über: 
@@ -27,16 +27,21 @@ Die Plattform ist erreichbar über:
 
 Wenn ihr nicht weiter kommt, stehen wir Euch sehr gerne zur Seite. Leider sind wg. der Urlaubszeit nicht immer alle verfürbar.
 
-- Henri Werth,
-- Bodo Kraft, 0151 / 122 93 722, bodo@laizee.ai
+- Henri Werth, henri@laizee.ai
+- Bodo Kraft, bodo@laizee.ai
 
 ### Wichtige Ressourcen
 
 Ihr könnt mit eigenen Daten arbeiten oder vorbereitete Informationen im git finden:
 
-- Demo-Daten: [Annotierter](./inputdata/corpus/KundenKommunikation_ner_annotiert.jsonl) und [nicht-annotierter](./inputdata/corpus/KundenKommunikation.jsonl), deutscher Datensatz mit Kundenfeedback. 
-   - Labels: PLACE, ...
-   [Annotierter](./inputdata/corpus/germ_eval_2017_train_labeled.jsonl) und [nicht-annotierter](./inputdata/corpus/germ_eval_2017_train_no_label.jsonl), deutscher Sentiment Analysis Datensatz von Tweets über die Deutsche Bahn
+| Datensätze | 
+|----------|
+| [Sentiment Datensatz von Bewertungen der Bahn](./inputdata/corpus/bahn_sentiment_non_labeled.jsonl)    |
+| [Sentiment Datensatz von Bewertungen der Bahn mit Goldlabels](./inputdata/corpus/bahn_sentiment_labeled.jsonl)   | 
+| [Name Entity Datensatz von Kundenkommunikaiton der Bahn](./inputdata/corpus/KundenKommunikation.jsonl)    |
+| [Name Entity Datensatz von Kundenkommunikaiton der Bahn mit Goldlabels](./inputdata/corpus/KundenKommunikation_ner_annotiert.jsonl)   |
+
+
 - CSV-Liste mit deutschen [Städtenamen](./inputdata/DeutscheStaedtenamen.csv)
 - Java-Maven-Projekt zur Integration des NLP-Webservice und zum automatisierten Test 
 
@@ -73,10 +78,9 @@ Ihr könnt mit eigenen Daten arbeiten oder vorbereitete Informationen im git fin
 	 - Für das Label *Location*
      - Als Beispiel für einen regulären Ausdruck zum erkennen eines Datums, verwenden Sie gerne ``` ^/(31|30|[012]\d|\d)[./](0\d|1[012]|\d)[./](\d{4}|\d\d)$/ ```
      - Testen Sie über die OpenAPI Schnittstelle, wie sich das Extraktions-Ergebnis verbessert hat.
+     - Ermitteln Sie innerhalb der Platform, wie die Modell-Performance sich entwickelt. 	 
+4. Integrieren des NLP-Webservice in Ihre Anwendung
      - Ermitteln Sie innerhalb der Platform, wie die Modell-Performance sich entwickelt. 
-	 
-	 
-[4. Integrieren des NLP-Webservice in Ihre Anwendung
      - Erstellen Sie eine einfache Anwendung, die den generieren Webservice verwendet. 
      - Verwenden Sie gerne die [Java-Vorlage](./application) für eine Konsolenanwendung (Java ab 11 und Maven erforderlich) im git. 
      - Ein zu den Demo-Daten passender, annotierter [Testdatensatz](./application/nlpServiceTester/testdata-de.json) ist hier bereits mit hinterlegt.
