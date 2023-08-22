@@ -45,7 +45,6 @@ Ihr könnt mit eigenen Daten arbeiten oder vorbereitete Informationen im git fin
 - CSV-Liste mit deutschen [Städtenamen](./inputdata/DeutscheStaedtenamen.csv)
 - Java-Maven-Projekt zur Integration des NLP-Webservice und zum automatisierten Test 
 
-
 ### Tutorial
 
 1. Sentiment-Analyse: Nachvollziehen des Demo-Projekts 
@@ -81,12 +80,13 @@ Ihr könnt mit eigenen Daten arbeiten oder vorbereitete Informationen im git fin
      - Testen Sie über die OpenAPI Schnittstelle, wie sich das Extraktions-Ergebnis verbessert hat.
      - Ermitteln Sie innerhalb der Platform, wie die Modell-Performance sich entwickelt. 	 
 4. Integrieren des NLP-Webservice in Ihre Anwendung
+     - Ermitteln Sie innerhalb der Platform, wie die Modell-Performance sich entwickelt. 
      - Erstellen Sie eine einfache Anwendung, die den generieren Webservice verwendet. 
      - Verwenden Sie gerne die [Java-Vorlage](./application) für eine Konsolenanwendung (Java ab 11 und Maven erforderlich) im git. 
      - Ein zu den Demo-Daten passender, annotierter [Testdatensatz](./application/nlpServiceTester/testdata-de.json) ist hier bereits mit hinterlegt.
      - Folgen Sie der [Anleitung](./application/nlpServiceTester/README.md) zum übersetzen und starten der Anwendung.   
 5. Eigene Projekte 
      - Experimentieren Sie mit Ihren eigenen Daten und Herausforderungen
-     - Erzählen Sie uns von Ihren Herausforderungen
+     - Erzählen Sie uns von Ihren Herausforderungen]
 
 
