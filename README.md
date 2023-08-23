@@ -45,6 +45,7 @@ Ihr könnt mit eigenen Daten arbeiten oder vorbereitete Informationen im git fin
 - CSV-Liste mit deutschen [Städtenamen](./inputdata/DeutscheStaedtenamen.csv)
 - Java-Maven-Projekt zur Integration des NLP-Webservice und zum automatisierten Test 
 
+
 ### Tutorial
 
 1. Sentiment-Analyse: Nachvollziehen des Demo-Projekts 
@@ -62,7 +63,9 @@ Ihr könnt mit eigenen Daten arbeiten oder vorbereitete Informationen im git fin
      - Deployen Sie den laizee-NLP-Webservice. Unter dem Button *Deployments* können Sie mit dem *+* Zeichen ein neues Deployment erstellen. 
      - In diesem Menü finden alle Deployments, über den *Open-Button* können Sie den Zustand des Webservice erkennen. 
      - Nachdem Sie ein Deployment erstellt haben und dieses *Healthy* ist, könne Sie auf die OpenAPI Schnittstelle zugreifen. Die Url stellt sich wie folgt zusammen:  *https://**Deploymentname*.*Projektname*.k8s-demo.laizee.ai/docs
-     - Über das Feld *Analyze* können Sie nun auf den Button *Try it out* das Textfeld innerhalb des JSON-Beispiels ändern und bekommen unter *Execute* das Ergebnis des Modells bekommen. 
+     - Diese kann aber auch öffnen indem Sie den Button *OpenAPI* klicken nachdem Sie das Depolyment geöffnet haben.
+     - Für vorläufiges Credentials fragen Sie die Kontaktpersonen an. 
+     - Über das Feld *Analyze* können Sie nun auf den Button *Try it out* das Textfeld innerhalb des JSON-Beispiels ändern (Ändern Sie im Feld *task*, *NER* zu *CLASSIFICATION*) und bekommen unter *Execute* das Ergebnis des Modells bekommen. 
      - Testen Sie über die OpenAPI Schnittstelle, ob der Satz *Die Zugfahrt war ein reines Vergnügen. Alles war sauber und pünktlich* korrekt klassifiziert wird.
      - Wenn die Qualität nicht ausreicht, versuchen Sie über weiteres Tagging bessere Ergebnisse zu erreichen.
 2. Information-Extraction: Neuen Projekttyp verwenden
@@ -80,13 +83,12 @@ Ihr könnt mit eigenen Daten arbeiten oder vorbereitete Informationen im git fin
      - Testen Sie über die OpenAPI Schnittstelle, wie sich das Extraktions-Ergebnis verbessert hat.
      - Ermitteln Sie innerhalb der Platform, wie die Modell-Performance sich entwickelt. 	 
 4. Integrieren des NLP-Webservice in Ihre Anwendung
-     - Ermitteln Sie innerhalb der Platform, wie die Modell-Performance sich entwickelt. 
      - Erstellen Sie eine einfache Anwendung, die den generieren Webservice verwendet. 
      - Verwenden Sie gerne die [Java-Vorlage](./application) für eine Konsolenanwendung (Java ab 11 und Maven erforderlich) im git. 
      - Ein zu den Demo-Daten passender, annotierter [Testdatensatz](./application/nlpServiceTester/testdata-de.json) ist hier bereits mit hinterlegt.
      - Folgen Sie der [Anleitung](./application/nlpServiceTester/README.md) zum übersetzen und starten der Anwendung.   
 5. Eigene Projekte 
      - Experimentieren Sie mit Ihren eigenen Daten und Herausforderungen
-     - Erzählen Sie uns von Ihren Herausforderungen]
+     - Erzählen Sie uns von Ihren Herausforderungen
 
 
