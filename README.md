@@ -66,7 +66,7 @@ Ihr könnt mit eigenen Daten arbeiten oder vorbereitete Informationen im git fin
      - Diese kann aber auch öffnen indem Sie den Button *OpenAPI* klicken nachdem Sie das Depolyment geöffnet haben.
      - Für vorläufiges Credentials fragen Sie die Kontaktpersonen an. 
      - Über das Feld *Analyze* können Sie nun auf den Button *Try it out* das Textfeld innerhalb des JSON-Beispiels ändern (Ändern Sie im Feld *task*, *NER* zu *CLASSIFICATION*) und bekommen unter *Execute* das Ergebnis des Modells bekommen. 
-     - Testen Sie über die OpenAPI Schnittstelle, ob der Satz *Die Zugfahrt war ein reines Vergnügen. Alles war sauber und pünktlich* korrekt klassifiziert wird.
+     - Testen Sie über die OpenAPI Schnittstelle, ob der Satz *Die Klimaanlage war so ineffizient wie ein K\u00e4sefondue ohne Rechaud. Ich f\u00fchlte mich, als w\u00fcrde ich in einem \u00fcberhitzten Zug schmoren!* und der Satz *Die Sicherheitsvorkehrungen waren vorbildlich. Hatte keinerlei Bedenken bez\u00fcglich meiner beruflichen Ausr\u00fcstung oder sensibler Daten. Eine solide Basis f\u00fcr gesch\u00e4ftliche Reisen!* korrekt klassifiziert wird.
      - Wenn die Qualität nicht ausreicht, versuchen Sie über weiteres Tagging bessere Ergebnisse zu erreichen.
 2. Information-Extraction: Neuen Projekttyp verwenden
      - Erstellen Sie ein neues Projekt und wählen Sie den Projekttyp *Sequence Labeling"
