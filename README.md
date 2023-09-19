@@ -48,7 +48,7 @@ Ihr könnt mit eigenen Daten arbeiten oder vorbereitete Informationen im git fin
  
 ##### 1.  Sentiment-Analyse 
  
-Ziel: Erste Schritte mit der Plattform 
+**Ziel: Erste Schritte mit der Plattform** 
  
 ######      1.1 Vorlauf 
  
@@ -82,8 +82,8 @@ Das Training wird an übersprungen. Überspringen Sie diesen Teil und gehen Sie 
  
 ##### 2. Information-Extraction 
  
-Ziel: Information Extraction kennenlernen
-Sie werden nun die Schritte aus Teil 1 (Vorlauf, Tagging, Training, Depolyment und OpenAPI) selbstständig auf einen neuen Projekttyp anwenden. Beachten Sie hierbei das der Schritt *Training* wieder durch *Laden eines Modells (Optional)* ersetzt wird.
+**Ziel: Information Extraction kennenlernen** 
+<br> Sie werden nun die Schritte aus Teil 1 (Vorlauf, Tagging, Training, Depolyment und OpenAPI) selbstständig auf einen neuen Projekttyp anwenden. Beachten Sie hierbei das der Schritt *Training* wieder durch *Laden eines Modells (Optional)* ersetzt wird.
 >- Erstellen Sie ein neues Projekt und wählen Sie den Projekttyp *Sequence Labeling* 
 >- Erstellen Sie ihren annotierten Corpus, benutzen Sie dazu gerne die im git [abgelegten Daten](./inputdata/corpus/KundenKommunikation.jsonl). Wenn Sie nicht Taggen möchten, verwenden Sie den bereits [annotierten Corpus](./inputdata/corpus/KundenKommunikation_ner_annotiert.jsonl) mit den vordefinierten Labels.  
 >- Überlegen Sie die benötigten Labels, legen Sie diese an und beschreiben Sie sie in der *Tagging Guideline*. Sie können aber auch einfach die Labels aus dem schon annotierten Daten nehmen. Diese sind: USERDEVICE, PRODUCT, CONCERN, PERSON, MISC, NAMEDTIME, ROUTE, VEHICLE, DATETIME, LOCATION. 
@@ -92,7 +92,7 @@ Sie werden nun die Schritte aus Teil 1 (Vorlauf, Tagging, Training, Depolyment u
 >- Testen Sie über die OpenAPI Schnittstelle, ob der Satz *Brauche eine Sitzplatzreservierung für IRE 3048 und 3049 zwischen Aachen und Dortmund* korrekt extrahiert wird. 
  
 ##### 3. Optimieren Sie Ihr Projekt 
-Ziel: Steigerung der Qualität 
+**Ziel: Steigerung der Qualität** 
 >- Überlegen Sie, welche *Regeln*, z.B. Wörterbuch-Einträge oder Reguläre Ausdrücke sinnvoll sind und das Training verbessern können.  
 >- Als Beispiel für ein Wörterbuch, verwenden Sie gerne die im git abgelegte Liste mit [Städtenamen](./inputdata/DeutscheStaedtenamen.csv), siehe oben, oder laden Sie eine eigene hoch. 
 >- Für das Hochladen klicken Sie unter dem Tab *Datensatz* auf *Regeln*. Dort können Sie über *Aktionen* *Regeln uploaden*. In dem dann auftauchenden Feld können Sie unter *Wähle eine Option* *Regeln für ein Label* auswählen und das Label *Location* benutzen. 
@@ -102,7 +102,7 @@ Ziel: Steigerung der Qualität
 >- Ermitteln Sie innerhalb der Plattform, wie die Modell-Performance sich entwickelt.     
  
 ##### 4. Integrieren des NLP-Webservice in Ihre Anwendung 
-Ziel: Einbettung in eine Software 
+**Ziel: Einbettung in eine Software** 
 >- Erstellen Sie eine einfache Anwendung, die den generieren Webservice verwendet.  
 >- Verwenden Sie gerne die [Java-Vorlage](./application) für eine Konsolenanwendung (Java ab 11 und Maven erforderlich) im git.  
 >- Ein zu den Demo-Daten passender, annotierter [Testdatensatz](./application/nlpServiceTester/testdata-de.json) ist hier bereits mit hinterlegt. 
