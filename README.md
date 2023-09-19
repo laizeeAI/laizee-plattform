@@ -82,7 +82,8 @@ Das Training wird an übersprungen. Überspringen Sie diesen Teil und gehen Sie 
  
 ##### 2. Information-Extraction 
  
-Ziel: Information Extraction kennenlernen 
+Ziel: Information Extraction kennenlernen
+Sie werden nun die Schritte aus Teil 1 (Vorlauf, Tagging, Training, Depolyment und OpenAPI) selbstständig auf einen neuen Projekttyp anwenden. Beachten Sie hierbei das der Schritt *Training* wieder durch *Laden eines Modells (Optional)* ersetzt wird.
 >- Erstellen Sie ein neues Projekt und wählen Sie den Projekttyp *Sequence Labeling* 
 >- Erstellen Sie ihren annotierten Corpus, benutzen Sie dazu gerne die im git [abgelegten Daten](./inputdata/corpus/KundenKommunikation.jsonl). Wenn Sie nicht Taggen möchten, verwenden Sie den bereits [annotierten Corpus](./inputdata/corpus/KundenKommunikation_ner_annotiert.jsonl) mit den vordefinierten Labels.  
 >- Überlegen Sie die benötigten Labels, legen Sie diese an und beschreiben Sie sie in der *Tagging Guideline*. Sie können aber auch einfach die Labels aus dem schon annotierten Daten nehmen. Diese sind: USERDEVICE, PRODUCT, CONCERN, PERSON, MISC, NAMEDTIME, ROUTE, VEHICLE, DATETIME, LOCATION. 
