@@ -65,7 +65,8 @@ Ziel: Erste Schritte mit der Plattform
 Das Training wird an übersprungen. Überspringen Sie diesen Teil und gehen Sie dafür den Teil 1.3 (Optional) 
 >- Trainieren Sie, verwenden Sie hierzu die *Standard-Konfiguration*. Hinweis: Mit dem Beispiel-Datensatz wird das Training bis zu 30 Minuten benötigen. 
 >- Unter dem Reiter *Training* können Sie jetzt ein Training starten und dort Ihre Konfiguration angeben. Wählen Sie für den Namen des Trainings einen mit lowercase und alphanumerisch sein (Bsp.: *Projektname*.*User*.*Nummer*).     
-######      1.3 Laden eines Modells (Optional) 
+######      1.3 Laden eines Modells (Optional)
+>- Sie können das entsprechende Modell (Sentiment) über Sciebo [runterladen](https://fh-aachen.sciebo.de/s/4w1aD1IgMGwVMGg)
 >- Klicken Sie auf den Tab *Modelle*. Mit dem *Aktion* Button können Sie nun ein Modell uploaden. 
 >- Verwenden Sie einen beliebigen Namen und lassen Sie den *Model type* auf spacy. 
 >- Nutzen Sie das [Bahn Sentiment Spacy Model](./models/transformer_bahn_sent_spacy.zip).  
@@ -84,7 +85,7 @@ Das Training wird an übersprungen. Überspringen Sie diesen Teil und gehen Sie 
  
 Ziel: Information Extraction kennenlernen <br>
 
-Sie werden nun die Schritte aus Teil 1 (Vorlauf, Tagging, Training, Depolyment und OpenAPI) selbstständig auf einen neuen Projekttyp anwenden. Beachten Sie hierbei das der Schritt *Training* wieder durch *Laden eines Modells (Optional)* ersetzt wird.
+Sie werden nun die Schritte aus Teil 1 (Vorlauf, Tagging, Training, Depolyment und OpenAPI) selbstständig auf einen neuen Projekttyp anwenden. Beachten Sie hierbei das der Schritt *Training* wieder durch *Laden eines Modells (Optional)* ersetzt wird. Das entsprechende Modell können Sie hier [runterladen](https://fh-aachen.sciebo.de/s/l3eDW0elZo2hx6W).
 
 >- Erstellen Sie ein neues Projekt und wählen Sie den Projekttyp *Sequence Labeling* 
 >- Erstellen Sie ihren annotierten Corpus, benutzen Sie dazu gerne die im git [abgelegten Daten](./inputdata/corpus/KundenKommunikation.jsonl). Wenn Sie nicht Taggen möchten, verwenden Sie den bereits [annotierten Corpus](./inputdata/corpus/KundenKommunikation_ner_annotiert.jsonl) mit den vordefinierten Labels.  
